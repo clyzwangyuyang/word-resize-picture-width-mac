@@ -57,6 +57,8 @@ End Sub
       * 点击顶部菜单栏的“工具 (Tools)”。
       * 选择“宏 (Macro)”。
       * 选择“Visual Basic 编辑器 (Visual Basic Editor)”。 或者，您也可以直接使用快捷键 `Option + F11` (在某些 Mac 键盘上可能是 `Fn + Option + F11`)。
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/bab8de86-62dc-427f-8881-f63e13b12447" />
+
 3.  **粘贴VBA代码：**
 
   <img width="1400" alt="image" src="https://github.com/user-attachments/assets/e8c603e5-fb5b-402a-b6e8-bf1fc9ff7189" />
