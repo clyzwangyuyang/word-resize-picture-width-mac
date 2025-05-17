@@ -1,4 +1,3 @@
-<img width="1400" alt="image" src="https://github.com/user-attachments/assets/07c2e050-ce25-49c5-b8f7-d4d40cd310d0" /># word调整图片宽度-mac版
 **VBA 代码：**
 
 这里提供一个基础的 VBA 代码，可以将文档中所有图片的宽度调整为一个设定的值。
@@ -58,28 +57,20 @@ End Sub
       * 点击顶部菜单栏的“工具 (Tools)”。
       * 选择“宏 (Macro)”。
       * 选择“Visual Basic 编辑器 (Visual Basic Editor)”。 或者，您也可以直接使用快捷键 `Option + F11` (在某些 Mac 键盘上可能是 `Fn + Option + F11`)。
-3.  **插入模块：**
-      * 在 VBA 编辑器中，您会看到一个“项目 (Project)”窗口（通常在左侧）。
-      * 找到您的文档项目（例如，“Project (YourDocumentName)”）。
-      * 右键点击您的文档项目，或者点击顶部菜单栏的“插入 (Insert)”。
-      * 选择“模块 (Module)”。
-4.  **粘贴代码：**
-5.  <img width="1400" alt="image" src="https://github.com/user-attachments/assets/e8c603e5-fb5b-402a-b6e8-bf1fc9ff7189" />
+3.  **粘贴VBA代码：**
 
-      * 一个新的模块窗口会打开（通常在右侧）。
-      * 将上面提供的 VBA 代码复制并粘贴到这个模块窗口中。
-6.  **修改期望宽度 (可选)：**
+  <img width="1400" alt="image" src="https://github.com/user-attachments/assets/e8c603e5-fb5b-402a-b6e8-bf1fc9ff7189" />
+
+4.  **修改期望宽度 (可选)**
       * 在代码中找到这一行：`desiredWidthCm = 8`
       * 将数字 `8` 修改为您期望的图片宽度值（单位是厘米）。例如，如果您希望图片宽度为 5 厘米，就改成 `desiredWidthCm = 5`。
-7.  **运行宏：**
-      * 确保光标在 `Sub ResizeAllPictures()` 和 `End Sub` 之间的任何位置。
-      * 点击 VBA 编辑器工具栏上的“运行 (Run)”按钮（一个绿色的三角形播放按钮），或者按 `F5` 键。
-      * 或者，您可以关闭 VBA 编辑器，返回到 Word 文档。然后：
-          * 点击顶部菜单栏的“工具 (Tools)”。
-          * 选择“宏 (Macro)”。
-          * 再选择“宏 (Macros)...” (或者快捷键 `Option + F8`)。
-          * 在弹出的“宏”对话框中，选择名为 `ResizeAllPictures` 的宏。
-          * 点击“运行 (Run)”。
-8.  **查看结果：**
+
+5. **control+S保存,选择删除宏并保存**
+<img width="1109" alt="image" src="https://github.com/user-attachments/assets/33fd68cb-8c26-47fa-835b-71d3da5f1061" />
+
+6.  **运行宏：**
+      <img width="1405" alt="image" src="https://github.com/user-attachments/assets/b26c545c-4b3f-40be-9746-60c5210466c5" />
+
+7.  **查看结果：**
       * 宏运行完毕后，文档中所有图片的宽度应该已经被调整。您会看到一个提示框显示“所有图片的宽度已调整完毕！”。
 
